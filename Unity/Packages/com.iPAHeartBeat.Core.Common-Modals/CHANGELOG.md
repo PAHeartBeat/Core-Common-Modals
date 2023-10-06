@@ -1,7 +1,6 @@
-# Change Log iPAHeartBeat Common Modals/Data Structure
+# Change Log - iPAHeartBeat Common Modals/Data Structure
 
 ## 1.0.0 (2023.10.06)
-
 ### Features
 -   Initial Project Commit
 
