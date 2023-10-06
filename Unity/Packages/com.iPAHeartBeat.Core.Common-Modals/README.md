@@ -1,58 +1,53 @@
 # iPAHeartBeat Core Common-Modals
 
-This package is created to keep common modal and data structures available to other project, tools, and repo via NuGet and Unity Packages.
+This package is designed to provide commonly used modals and data structures for integration into various projects, tools, and repositories through NuGet and Unity Packages.
 
--   [Change Log](CHANGELOG.md)
--   [UPM Package License](LICENCE.md)
+For your convenience, we've included the following essential links:
+
+- [Change Log](CHANGELOG.md)
+- [UPM Package License](LICENCE.md)
 
 ## Unity Package
 
-Unity Package is based on .Net Framework 4.71 and C# 10.
+Our Unity Package is built on .NET Framework 4.71 and utilizes C# 10.
 
-Note:
+**Important Note**:
 
--   Recently I have configure Unity Packages to Cloud Smith IO. Now any-one can use this package to their unity project
+We've recently configured Unity Packages for easy accessibility through Cloud Smith IO. Now, anyone, including beginners, can integrate this package into their Unity projects effortlessly.
 
 ### How to Use
 
-Add this information to you Unity manifest.json file. There is two way to setup repo in unity.
+You can add this package to your Unity project in two ways, tailored for different preferences:
 
-1. Using Unity Editor
-2. Direct modify the manifest json in your code editor.
+#### Using Unity Editor (Recommended for Beginners)
 
-#### Using Unity Editor
+1. Open your project in the Unity Editor.
+2. Access the Edit menu and select Project Settings.
+3. Within the Project Settings window, navigate to the Package Manager section on the left.
+4. Scroll down to the Scoped Registry section on the right.
+5. In the left section, click the plus icon to create a new registry entry.
+6. In the right section, fill in the following details:
+   - **Name**: "C# Helper package by iPAHeartBeat"
+   - **URL**: "https://npm.cloudsmith.io/ipaheartbeat/core"
+   - **Scope(s)**: Click the plus icon and add `com.ipaheartbeat`.
+7. Close the window and save your project from the File menu.
+8. You're now all set to utilize the packages provided by us.
 
-1. Open your project in Unity Editor
-2. Go To Edit menu and Select Project Settings.
-3. Select Package manger from left pane of Project setting window.
-4. Go To Scoped Registry section in Right Section.
-5. Right section have sub section with Left and Right partition.
-6. Click Plus icon in left partition. (It will add a new empty entry for registry setup.)
-7. Now In Right Sub Section add detail as below mentioned.
-8. Add Name like "C# Helper package by iPAHeartBeat"
-9. In Url Section Added "https://npm.cloudsmith.io/ipaheartbeat/core"
-10. in Scope(s) use Plus Icon from right side and Add "com.ipaheartbeat".
-11. Close the window and Save project from File Menu.
-12. Now you are ready to use the packages created by Me.
+#### Modifying manifest.json (Advanced Option)
 
-##### Modify manifest.json
+1. Open your project folder in Finder (on macOS) or Explorer (on Windows).
+2. Locate the "Package" folder and open the `manifest.json` file in your preferred code or text editor (it's a JSON file).
+3. Search for the `scopedRegistries` entry within the JSON file. If it's not present or empty, don't worry.
+4. Add the following JSON data to the `scopedRegistries` array:
 
-1. Open You project in Finder/Explorer
-2. Navigate to Package folder and Open manifest.json in your favorite Code/text editor. (it's JSON File.)
-3. Find the entry `scopedRegistries` in json file in navigate.
-4. It might be empty Json array or it might have few entries for other scoped registries.
-5. Add below mention json date in the array
-
-```
+```json
 {
 	"name": "C# Helper package by iPAHeartBeat",
-	"scopes": [ "com.ipaheartbeat" ],
+	"scopes": ["com.ipaheartbeat"],
 	"url": "https://npm.cloudsmith.io/ipaheartbeat/core/"
 }
 ```
 
-6. Save the file and close the File.
-7. Open/reopen your unity project.
-8. Now you are ready to use the packages created by Me.
-
-Once you have setup the registry in unity project you can find the packages in Unity Package manger, from "My Registry" option.
+5. Save the file and close it.
+6. Open or reopen your Unity project.
+7. You can now conveniently access our packages from the Unity Package Manager under the "My Registry" option.
