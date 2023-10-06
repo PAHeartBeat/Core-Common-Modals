@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iPAHeartBeat.Core.CommonModals</name>
+    </assembly>
+    <members>
+        <member name="T:iPAHeartBeat.Core.Common.Modals.SyncableData">
+            <summary>
+            Data Structure to Handle and validate data to sync with server.
+            </summary>
+        </member>
+        <member name="F:iPAHeartBeat.Core.Common.Modals.SyncableData.lastModifiedTime">
+            <summary>
+            The epoch time value in sec.
+            </summary>
+        </member>
+        <member name="M:iPAHeartBeat.Core.Common.Modals.SyncableData.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:iPAHeartBeat.Core.Common.Modals.SyncableData"/> class.
+            </summary>
+        </member>
+        <member name="M:iPAHeartBeat.Core.Common.Modals.SyncableData.GetLastModifiedTime">
+            <summary>
+            Convert epoch time to C# Date Time.
+            </summary>
+            <returns>Date Time as UTC Value.</returns>
+        </member>
+    </members>
+</doc>
