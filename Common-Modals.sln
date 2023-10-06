@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPAHeartBeat.Core.CommonModals", "Src\iPAHeartBeat.Core.CommonModals.csproj", "{E06F7FDE-1CC8-48AC-A62A-3A186967CACE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPAHeartBeat.Core.CommonModals", "Src\com.iPAHeartBeat.Core.Common-Modals", "{E06F7FDE-1CC8-48AC-A62A-3A186967CACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
