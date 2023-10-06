@@ -1,0 +1,32 @@
+{
+	"name": "com.ipaheartbeat.core.common-modals",
+	"version": "1.0.0",
+	"displayName": "iPAHeartBeat Core Common-Modals",
+	"description": "This package is created to keep common modal and data structures available to other project, tools, and repo via NuGet and Unity Packages.",
+	"license": "LGPL-3.0-or-later",
+	"unity": "2017.1",
+	"keywords": [
+		"Core",
+		"Data Structures",
+		"Common Modals",
+		"Syncable",
+		"Unity",
+		"iPAHeartBeat",
+		"public",
+		"Unity Package"
+	],
+	"author": {
+		"name": "Ankur Ranpariya",
+		"email": "ankur30884@gmail.com"
+	},
+	"samples": [],
+	"type": "library",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PAHeartBeat/Common-Modals"
+	},
+	"bugs": {
+		"url": "https://github.com/PAHeartBeat/Common-Modals/issues",
+		"email": "ankur30884@gmail.com"
+	}
+}

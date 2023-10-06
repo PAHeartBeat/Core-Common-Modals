@@ -1,12 +1,11 @@
 This Package based on GUN LGPL v3 Plus a few custom requirements
 Please Refer [GUN LGPL v3 here](https://www.gnu.org/licenses/lgpl-3.0.en.html)
 
-
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-* Neither the name of the [ORGANIZATION] nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+-   Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+-   Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+-   Neither the name of the [ORGANIZATION] nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
