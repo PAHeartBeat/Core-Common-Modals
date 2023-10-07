@@ -33,12 +33,12 @@
 
 	<PropertyGroup Label="NuGet Pacakge Settings">
 		<IsPackable>true</IsPackable>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GeneratePackageOnBuild Condition="'$(Configuration)'=='Release'">true</GeneratePackageOnBuild>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageVersion>1.0.1</PackageVersion>
-		<PackageOutputPath>./../Packages/NuGet/$(PackageVersion)</PackageOutputPath>
+		<PackageOutputPath Condition="'$(Configuration)'=='Release'">./../Packages/NuGet/$(PackageVersion)</PackageOutputPath>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Debug and Exception Setting">
@@ -68,8 +68,8 @@
 
 		<RootNamespace>iPAHeartBeat.Core</RootNamespace>
 		<AssemblyName>$(PackageId)</AssemblyName>
-		<AssemblyVersion>1.0.1.</AssemblyVersion>
-		<FileVersion>1.0.1.</FileVersion>
+		<AssemblyVersion>1.0.1.0</AssemblyVersion>
+		<FileVersion>1.0.1.0</FileVersion>
 		<NeutralLanguage>en</NeutralLanguage>
 
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -86,7 +86,7 @@
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'" />
 
 	<ItemGroup Label="NuGet.Org">
-		<PackageReference Include="iPAHeartBeat.Core.Extensions" Version="2.0.1" />
+		<PackageReference Include="iPAHeartBeat.Core.Extensions" Version="[2.0.1,3)" />
 	</ItemGroup>
 
 	<ItemGroup Label="Source Linking">
