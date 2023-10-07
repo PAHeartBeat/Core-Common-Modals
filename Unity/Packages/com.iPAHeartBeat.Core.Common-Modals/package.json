@@ -1,6 +1,6 @@
 {
 	"name": "com.ipaheartbeat.core.common-modals",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"displayName": "iPAHeartBeat Core Common-Modals",
 	"description": "Introducing the Common Data Structures Package\n\nThis package is designed to provide a set of commonly used data structures and models that you can easily access and utilize in various projects, tools, and repositories. You can access these resources through NuGet and Unity Packages.\n\nIn simpler terms, it's like having a library of useful building blocks that you can use in different software projects. Whether you're just starting to code or you're an experienced developer, this package makes it easier to work with common data structures, saving you time and effort.",
 	"license": "LGPL-3.0-or-later",
