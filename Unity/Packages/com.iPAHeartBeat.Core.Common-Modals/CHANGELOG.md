@@ -1,4 +1,4 @@
-# Change Log - iPAHeartBeat Common Modals/Data Structure
+# iPAHeartBeat Core Common-Modals
 
 ## 1.0.0 (2023.10.06)
 ### Features
